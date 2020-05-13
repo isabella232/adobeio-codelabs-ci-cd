@@ -2,13 +2,22 @@
   "title": "CodeLab title",
   "repository": "https://github.com/AdobeDocs/adobeio-codelabs-template",
   "navigation": [{
-    "title": "What you will build",
+    "title": "Introduction",
+    "url": "/README"
+  }, {
+    "title": "Requirements",
+    "url": "/lessons/requirements"
+  }, {
+    "title": "Lesson 1: Setup CI/CD",
     "url": "/lessons/lesson1"
   }, {
-    "title": "Creating your app",
+    "title": "Lesson 2: Monitoring CI/CD",
     "url": "/lessons/lesson2"
   }, {
-    "title": "Well done",
+    "title": "Lesson 3: Extending CI/CD",
     "url": "/lessons/lesson3"
+  }, {
+    "title": "Well done",
+    "url": "/lessons/welldone"
   }]
 }
