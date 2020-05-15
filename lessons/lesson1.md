@@ -15,7 +15,14 @@ Go to the project folder with `cd <project_name>` and run the command `aio app i
 
 ### GitHub actions
 
-By selecting the CI/CD workflow option, the application code will be initialized with an additional `.github` folder at its root. This folder contains default GitHub Workflows that can be extended if needed: 
+The CI/CD workflow relies on Adobe I/O GitHub Actions published on the GitHub Marketplace:
+                                                                              
+* `adobe/aio-cli-setup-action` used to install and configure the [CLI](https://github.com/adobe/aio-cli) on the GitHub infrastructure running the workflow that invoked the action. See [CLI Setup](https://github.com/marketplace/actions/aio-cli-setup).
+* `adobe/aio-apps-action` used to centralize the support for a GitHub workflow to leverage several application specific commands, such as testing via `aio app test` and deployment via `aio app deploy`. See [Apps](https://github.com/adobe/aio-apps-action).                                                                              
+ 
+By selecting the CI/CD workflow option, the application code will be initialized with an additional `.github` folder at its root. 
+
+This folder contains default GitHub Workflows that can be customized and extended if needed. 
 
 **pr_test.yml** is the GitHub action that will run the App unit tests on the stage environment by calling `aio app test` against the requested changes. It will run anytime the [pull_request](https://help.github.com/en/actions/reference/events-that-trigger-workflows#pull-request-event-pull_request) event occurs.
 

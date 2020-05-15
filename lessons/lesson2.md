@@ -25,8 +25,6 @@ By default, it will only run the tests for the Runtime actions. If all the check
 
 ![tests](assets/tests.png)
 
-*Notice: all major operating systems are tested `macOS-latest, ubuntu-latest, windows-latest`*
-
 ### Continuous deployment
 
 To deploy your Firefly App on the production environment, you'll have to perform a GitHub release in your project repository since the GitHub action relies on the `release` event.
@@ -39,4 +37,4 @@ Finally, the deploy GitHub action will run and deploy the Firefly App on the pro
 
 ![production](assets/production.png)   
 
-Next lesson: [Extending CI/CD](lesson3.md)
+Next lesson: [Well done](welldone.md)

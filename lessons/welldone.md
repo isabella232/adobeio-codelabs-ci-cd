@@ -9,7 +9,6 @@ In this codelab, you’ve learnt how to:
 * Setup Firefly GitHub Actions using `aio app init`
 * Define GitHub secrets for a stage and production environment
 * Trigger workflows for testing, stage and production deployment 
-* How to extend the CI/CD workflow 
 
 ### What’s next ?
 
