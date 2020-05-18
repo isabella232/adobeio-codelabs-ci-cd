@@ -1,6 +1,6 @@
 {
-  "title": "CodeLab title",
-  "repository": "https://github.com/AdobeDocs/adobeio-codelabs-template",
+  "title": "CI/CD in Firefly Apps",
+  "repository": "https://github.com/AdobeDocs/adobeio-codelabs-ci-cd",
   "navigation": [{
     "title": "Introduction",
     "url": "/README"
